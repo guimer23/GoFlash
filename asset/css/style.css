@@ -1,0 +1,51 @@
+:root {
+    --primary: #3F0098;
+    --secondary: #FF8800;
+}
+
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*=======================================================
+			About
+========================================================*/
+
+
+/*=======================================================
+			Services
+========================================================*/
+
+.services {
+    background-color: rgb(187, 173, 173);
+    padding: 75px 0px;
+}
+
+.services__title__top {
+    color: var(--secondary);
+    margin: 0;
+}
+
+.services__title__main {
+    color: var(--primary);
+    font-size: 48px;
+    margin-top: -10px;
+}
+
+.services__description {
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+.services__button {
+    background-color: var(--secondary);
+    padding: 16px 32px;
+    border-radius: 32px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
